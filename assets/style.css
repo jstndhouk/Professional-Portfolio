@@ -1,0 +1,39 @@
+header{
+display:flex;
+background-color: rgb(167, 166, 166);
+color:black
+}
+
+.name{
+    padding-left:50px;
+    flex:2 1 10px;
+    left:50px;
+}
+
+span{
+    background-color:teal;
+    padding:5px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+}
+
+nav{
+    align-items: center;
+    display:flex;
+    flex:1 1 50px;
+    justify-content: space-between;
+    padding-right:50px;
+}
+
+a{
+   color:black;
+   text-decoration:underline overline;
+   text-decoration-style:solid;
+   font-family:monospace;
+   font-size:20px;
+}
+
+a.hover{
+    background-color: white;
+    color:black;
+}
