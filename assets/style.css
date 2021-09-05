@@ -1,3 +1,9 @@
+/* Notes for Anthony
+1.  How do I get the vertical line to the right of my labels.  
+It seems that border is inside of padding so when I add padding 
+it eats into the content part of the page.
+2.   */
+
 header{
     display:flex;
     background-color: rgb(204, 203, 203);
@@ -25,7 +31,7 @@ nav{
     padding-right:50px;
 }
 
-a{
+a {
    color:black;
    text-decoration:underline overline;
    text-decoration-style:solid;
@@ -62,7 +68,6 @@ h2{
 
 main{
     display:flex;
-    background-color:rgb(193, 196, 29)
 }
 
 .articles{
@@ -70,22 +75,14 @@ main{
     flex-direction: column;
 }
 
-.Aboutme{
-background-color: skyblue;
-width:100%;
-height:300px;
+#work{
+    width:100%;
+    height:600px;
 }
 
-.work{
-background-color: tomato;
-width:100%;
-height:600px;
-}
-
-.contactme{
-background-color: turquoise;
-width:100%
-height:100px;
+#contactme{
+    width:100%;
+    height:100px;
 }
 
 
@@ -94,13 +91,15 @@ aside{
     flex:1 1;
     display:flex;
     flex-direction:column;
+    padding-right:20px;
+    padding-top:5px;
 }
 
 .articles{
     flex:3 1;
     height:100%;
     color:teal; 
-    /* Why do the elements inside of this class not inherit this color? */
+    display: flex;
 }
 
 aside{
@@ -109,7 +108,7 @@ aside{
 
 aside h3{
     color:teal;
-    font-size:24px;
+    font-size:36px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
     margin:5px;
 }
@@ -117,23 +116,103 @@ aside h3{
 .Aboutmelabel{
     height:300px;
     width:100%;
-    /* border-right:teal solid 10px; How can I add a border without scootching the whole element? */
+    border-right:rgb(12, 173, 173) solid 10px; 
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
     display:flex;
     justify-content: flex-end;
 }
 
 .Worklabel{
-    height:600px;
+    height:1000px;
     width:100%;
     display:flex;
     justify-content: flex-end;
+    /* border-right:rgb(0, 7, 7) solid 10px;  */
+    border-right:rgb(12, 173, 173) solid 10px; 
+    margin-top:30px;
 }
 
 .Contactmelabel{
     height:100px;
     width:100%;
     display:flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
+    border-right:rgb(12, 173, 173) solid 10px; 
+    margin-top:30px;
+  
+    
+}
+
+#Aboutme{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:300px;
+    
+}
+
+#work{
+    height:1000px;
+    width:100%;
+    margin-top:30px;
+    display:flex;
+    padding:5px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    flex-direction: column;
+}
+
+#Project1{
+    width:auto;
+    height: 400px;
+    background-image: url("https://i.pinimg.com/originals/1a/91/70/1a9170ff0c25711af89f9750f8f72726.jpg");
+    margin: 50px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+#Project2{
+    width:100%;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/1a/91/70/1a9170ff0c25711af89f9750f8f72726.jpg");
+    margin: 50px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+#contactme{
+    height:100px;
+    width:100%;
+    margin-top:30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#work h4
+{
+    padding:5px 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    background-color:teal;
+    color:white;
+    width:200px;
+    height:55px;
+    align-items: center;
+    margin:15px;
+}
+
+#Aboutme img{
+    padding:15px;
+    border: solid teal 5px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+#Aboutme h4{
+    padding-left:30px;
 }
