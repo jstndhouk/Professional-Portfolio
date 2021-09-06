@@ -68,10 +68,6 @@ h2{
 
 main{
     display:flex;
-}
-
-.articles{
-    display:flex;
     flex-direction: column;
 }
 
@@ -90,7 +86,6 @@ aside{
     height: 100%;
     flex:1 1;
     display:flex;
-    flex-direction:column;
     padding-right:20px;
     padding-top:5px;
 }
@@ -102,46 +97,43 @@ aside{
     display: flex;
 }
 
-aside{
-    background-color: rgb(204, 203, 203);
-}
-
 aside h3{
     color:teal;
     font-size:36px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
     margin:5px;
 }
+.aboutmesection, .worksection, .contactmesection{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
 
-.Aboutmelabel{
-    height:300px;
-    width:100%;
-    border-right:rgb(12, 173, 173) solid 10px; 
+.Aboutmelabel, .Worklabel, .Contactmelabel{
+    width:40%;
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
     display:flex;
     justify-content: flex-end;
+    background-color: rgb(204, 203, 203);
+    padding:10px;
+    margin:0px;
+}
+
+.Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
+    border-right:rgb(12, 173, 173) solid 5px; 
+    padding: 5px;
+    margin:0px;
 }
 
 .Worklabel{
     height:1000px;
-    width:100%;
-    display:flex;
-    justify-content: flex-end;
-    /* border-right:rgb(0, 7, 7) solid 10px;  */
-    border-right:rgb(12, 173, 173) solid 10px; 
-    margin-top:30px;
 }
 
 .Contactmelabel{
     height:100px;
-    width:100%;
-    display:flex;
-    align-items: center;
     justify-content: flex-end;
-    border-right:rgb(12, 173, 173) solid 10px; 
-    margin-top:30px;
-  
-    
+    align-items: center; 
+
 }
 
 #Aboutme{
@@ -154,14 +146,12 @@ aside h3{
 }
 
 #work{
-    height:1000px;
+    height:990px;
     width:100%;
-    margin-top:30px;
     display:flex;
-    padding:5px 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:50px;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 #Project1{
@@ -176,8 +166,8 @@ aside h3{
 
 #Project2{
     width:100%;
-    height: 300px;
-    background-image: url("https://i.pinimg.com/originals/1a/91/70/1a9170ff0c25711af89f9750f8f72726.jpg");
+    height: 200px;
+    background-image: url("https://i0.wp.com/calmatters.org/wp-content/uploads/2021/08/math-curriculum.jpg?fit=1200%2C900&ssl=1");
     margin: 50px;
     justify-content: flex-end;
     display: flex;
@@ -207,10 +197,9 @@ aside h3{
 }
 
 #Aboutme img{
-    padding:15px;
     border: solid teal 5px;
-    margin-left:10px;
-    margin-top: 10px;
+    margin:10px;
+
 }
 
 #Aboutme h4{
