@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 header{
     display:flex;
     background-color: rgb(204, 203, 203);
@@ -143,10 +147,28 @@ main{
     justify-content: flex-end;
     display: flex;
     align-items: flex-end;
-    border:solid teal 10px;
+    border:solid grey 10px;
 }
+
+#Project1 a{
+    display:block;
+    height:inherit;
+    width:inherit;
+}
+
+
 #Project1:hover, #Project2:hover, #Project3:hover, #Project4:hover, #Project5:hover{
-    border-color:grey;
+    border-color:teal;
+}
+
+#Project1 a, #Project2 a, #Project3 a, #Project4 a, #Project5 a{
+    display:block;
+    width:inherit;
+    height:inherit;
+}
+
+#Project1 a:hover, #Project2 a:hover, #Project3 a:hover, #Project4 a:hover, #Project5 a:hover{
+    display:none;
 }
 
 #Project2, #Project3, #Project4, #Project5{
@@ -157,7 +179,7 @@ main{
     display: flex;
     align-items: flex-end;
     margin: 3% 3% 3% 3%;
-    border:solid teal 10px;
+    border:solid grey 10px;
 }
 
 #contactme{
@@ -251,6 +273,7 @@ main{
 
    #Contactme{
        flex-direction: column;
+       padding-top:10px;
    }
 
    #Contactme h4, #Contactme a{
