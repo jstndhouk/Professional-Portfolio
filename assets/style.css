@@ -182,6 +182,18 @@ main{
     border:solid grey 10px;
 }
 
+#Project3{
+    background-image: url("https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png");
+}
+
+#Project4{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/096/888/small/vector-abstract-pattern-background.jpg");
+}
+
+#Project5{
+    background-image: url("https://thumbs.dreamstime.com/z/abstract-background-beautiful-fantasy-ink-patterns-liquid-paint-fluid-art-ornament-marble-design-your-colorful-136138753.jpg");
+}
+
 #contactme{
     height:auto;
     width:100%;
