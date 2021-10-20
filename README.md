@@ -8,6 +8,6 @@ This purpose of this application is to tell accompany my resume by telling emplo
 https://jstndhouk.github.io/Professional-Portfolio/
 
 ## Snippet
-![Image output](./assets/Capture1.PNG)
-![Image output](./assets/Capture2.PNG)
-![Image output](./assets/Capture3.PNG)
+![Image output](./assets/Capture1.png)
+![Image output](./assets/Capture2.png)
+![Image output](./assets/Capture3.png)
