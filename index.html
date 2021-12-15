@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="resetsheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Justin Houk's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+<title>Justin Houk's Portfolio</title>
 </head>
 
 <body>
@@ -13,7 +18,7 @@
     <header>
         <h1 class="Name"><span>Justin Houk</span>
         </h1>
-        <nav>
+        <nav class='topNav'>
             <a class='navlinks' href="#Aboutme">About Me</a>
             <a class='navlinks' href="#Work">Work</a>
             <a class='navlinks' href="#Contactme">Contact Me</a>
@@ -23,7 +28,13 @@
         </nav>
     </header>
     <section class="subheading">
-        <h2><span id="span2">I am a Full Stack Web Developer.</span></h2>
+        <div id='techUsed'>
+            <i class="devicon-javascript-plain"></i>
+        
+        <i class="devicon-github-original colored"></i>
+    </div>
+
+        <span id="subheadingBlurb">Hello!  Welcome to my Portfolio. I designed, developed and styled this webpage to give people a quick look at my work and professional content.  Feel free to pouruse around and if you have any suggestions to improve the readability and access for this I am a Full Stack Web Developer.</span>
     </section>
     <main>
         <section class="Aboutmesection">
@@ -52,7 +63,8 @@
                 <card id="Project1">
                     <a href="https://jstndhouk.github.io/Lazy-Layover/" target="_blank">
                         <h4>Lazy-Layover</h4>
-                        <h5>https://jstndhouk.github.io/Lazy-Layover/</h5>
+                        <h5>Deployed: Application: https://jstndhouk.github.io/Lazy-Layover/</h5>
+                        <!-- <h5>Repository: <a  id='repolink' href='https://github.com/jstndhouk/Lazy-Layover/'></a></h5> -->
                     </a>
                 </card>
                 <card id="Project2">
@@ -69,13 +81,15 @@
                     </a>
                 </card>
                 <card id="Project4">
-                    <a href="https://www.youtube.com/watch?v=tMllRsyltrk&ab_channel=WOWPresents" target="_blank">
-                        <h4>Project 4</h4>
+                    <a href="https://github.com/jstndhouk/README-Generator" target="_blank">
+                        <h4>ReadMe Generator</h4>
+                        <h5>https://github.com/jstndhouk/README-Generator</h5>
                     </a>
                 </card>
                 <card id="Project5">
-                    <a href="https://www.youtube.com/watch?v=aE03-a3on7A&ab_channel=WOWPresents" target="_blank">
-                        <h4>Project 5</h4>
+                    <a href="https://github.com/sistaniabong/justFurPets" target="_blank">
+                        <h4>JustFurPets</h4>
+                        <h5>https://github.com/sistaniabong/justFurPets</h5>
                     </a>
                 </card>
             </section>
