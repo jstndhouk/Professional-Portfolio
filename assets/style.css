@@ -67,7 +67,7 @@ i{
 
 .subheading{
     width: 100%;
-    height: 150px;
+    height:30%;
     display:flex;
     align-items: center;
     justify-content: flex-end;
@@ -81,9 +81,15 @@ i{
     color: black;
     -webkit-text-stroke: 0.1px black;
     font-family: 'Inter', sans-serif;
-    width:75%;
+    width:60%;
     align-items: center;
+    padding-right: 10%;
     
+}
+#techUsed{
+    width:40%;
+    align-items: center;
+    padding-left: 10%;
 }
 
 main{
