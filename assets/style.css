@@ -1,5 +1,6 @@
 *{
     scroll-behavior: smooth;
+    padding:0;
 }
 
 header{
@@ -7,24 +8,29 @@ header{
     background-color: rgb(204, 203, 203);
     color:black;
     width:100%;
+    flex: 4 1 1 1 1;
+    background:#bc5a45;
+   
 }
 
-.name{
-    padding-left:50px;
-    flex:1 1 10px;
-    left:50px;
+.Name{
+   background: #f18973;
+   border-radius: 25px;
+   margin-left: 10px;;
 }
 
-h2{
-    padding-right:10px;
-}
-
-h1 span{
-    background-color:teal;
+.Name span{
+    width:100%;
+    
     padding:5px 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:50px;
     text-shadow: 2px 2px grey;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.topNav{
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 
 nav{
@@ -36,11 +42,18 @@ nav{
 }
 
 .navlinks {
-   color:black;
-   text-decoration:underline overline;
+   color:white;
    text-decoration-style:solid;
    font-family:monospace;
    font-size:20px;
+   padding: 15px;
+   margin:10px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   background: #f18973;
+   color:black;
+   border-radius: 25px;
+
+
 }
 
 .navlinks:hover{
@@ -48,21 +61,44 @@ nav{
     color:black;
 }
 
-.subheading{
-    background-image: url(https://cdn.pixabay.com/photo/2015/08/11/22/43/teal-885329_960_720.png); 
-    width: 100%;
-    height: 150px;
-    display:flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+i{
+    font-size:50px;
+    color:#bc5a45!important;
 }
 
-#span2{
-    background-color:teal;
+.subheading{
+    width: 100%;
+    height:30%;
+    display:flex;
+    background:#f4e1d2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#subheadingBlurb{
     font-family:"Open Sans";
-    font-size:30px;
-    color:white;
-    text-shadow: 2px 2px black;
+    font-size:20px;
+    color: black;
+    -webkit-text-stroke: 0.1px black;
+    font-family: 'Inter', sans-serif;
+    height: 50%;
+    display:flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:30px;
+    border-bottom:double;
+    border-color: #b2b2b2;
+    text-align: center;
+}
+#techUsed{
+    width:90%;
+    align-items: center;
+    height:50%;
+    display:flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-self: center;
 }
 
 main{
@@ -100,14 +136,14 @@ main{
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
     display:flex;
     justify-content: flex-end;
-    background-color: rgb(204, 203, 203);
+    background: #f18973;
     padding:15px;
     margin:0px;
     font-size:50px
 }
 
 .Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
-    border-right:rgb(12, 173, 173) solid 5px; 
+    border-right:#bc5a45 solid 5px; 
     padding: 5px;
     margin:5px;
     padding-right:10px;
@@ -290,6 +326,7 @@ h5{
         width:auto;
         height:auto;
     }
+
 
    #Contactme{
        flex-direction: column;
