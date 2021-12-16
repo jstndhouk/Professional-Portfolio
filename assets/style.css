@@ -1,5 +1,6 @@
 *{
     scroll-behavior: smooth;
+    padding:0;
 }
 
 header{
@@ -69,10 +70,9 @@ i{
     width: 100%;
     height:30%;
     display:flex;
-    align-items: center;
-    justify-content: flex-end;
     background:#f4e1d2;
     display: flex;
+    flex-direction: column-reverse;
 }
 
 #subheadingBlurb{
@@ -81,15 +81,24 @@ i{
     color: black;
     -webkit-text-stroke: 0.1px black;
     font-family: 'Inter', sans-serif;
-    width:60%;
-    align-items: center;
-    padding-right: 10%;
-    
+    height: 50%;
+    display:flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:30px;
+    border-bottom:double;
+    border-color: #b2b2b2;
+    text-align: center;
 }
 #techUsed{
-    width:40%;
+    width:90%;
     align-items: center;
-    padding-left: 10%;
+    height:50%;
+    display:flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-self: center;
 }
 
 main{
@@ -127,14 +136,14 @@ main{
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
     display:flex;
     justify-content: flex-end;
-    background-color: rgb(204, 203, 203);
+    background: #f18973;
     padding:15px;
     margin:0px;
     font-size:50px
 }
 
 .Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
-    border-right:rgb(12, 173, 173) solid 5px; 
+    border-right:#bc5a45 solid 5px; 
     padding: 5px;
     margin:5px;
     padding-right:10px;
