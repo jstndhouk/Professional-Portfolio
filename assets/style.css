@@ -10,7 +10,6 @@ header{
     width:100%;
     flex: 4 1 1 1 1;
     background:#bc5a45;
-   
 }
 
 .Name{
@@ -44,7 +43,6 @@ nav{
 .navlinks {
    color:white;
    text-decoration-style:solid;
-   font-family:monospace;
    font-size:20px;
    padding: 15px;
    margin:10px;
@@ -68,7 +66,7 @@ i{
 
 .subheading{
     width: 100%;
-    height:30%;
+    height:35%;
     display:flex;
     background:#f4e1d2;
     display: flex;
@@ -76,12 +74,11 @@ i{
 }
 
 #subheadingBlurb{
-    font-family:"Open Sans";
     font-size:20px;
     color: black;
     -webkit-text-stroke: 0.1px black;
     font-family: 'Inter', sans-serif;
-    height: 50%;
+    height: 70%;
     display:flex;
     padding-left: 5%;
     padding-right: 5%;
@@ -89,6 +86,7 @@ i{
     border-bottom:double;
     border-color: #b2b2b2;
     text-align: center;
+    flex-direction: column;
 }
 #techUsed{
     width:90%;
@@ -101,14 +99,29 @@ i{
     align-self: center;
 }
 
+#aboutmeblurb1, #aboutmeblurb2, #aboutmeblurb3, #aboutmeblurb4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    margin:10px;
+}
+
+#aboutmeblurb{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+    padding-right:10px;
+}
+
 main{
     display:flex;
     flex-direction: column;
+    height:auto;
 }
 
 #contactme{
     width:100%;
     height:100px;
+    background:#bc5a45;
 }
 
 .articles{
@@ -131,6 +144,11 @@ main{
     height:100px;
 }
 
+
+#hello{
+font-size: 30px;
+font-weight: bolder;
+}
 .Aboutmelabel, .Worklabel, .Contactmelabel{
     width:40%;
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
@@ -139,7 +157,8 @@ main{
     background: #f18973;
     padding:15px;
     margin:0px;
-    font-size:50px
+    font-size:50px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
@@ -150,6 +169,15 @@ main{
     height:100%;
 }
 
+.Contactmelabel h3{
+    border-right:#f18973 solid 5px; 
+    padding: 5px;
+    margin:5px;
+    padding-right:10px;
+    height:100%;
+}
+}
+
 .Worklabel{
     height:auto;
 }
@@ -157,6 +185,7 @@ main{
 .Contactmelabel{
     justify-content: flex-end;
     align-items: center; 
+    background:#bc5a45;
 
 }
 
@@ -165,9 +194,8 @@ main{
     justify-content: center;
     align-items: center;
     width:100%;
-    height:300px;
-    font-size:25px;
-    
+    background: #f18973;
+    height:auto;
 }
 
 #Work{
@@ -177,6 +205,7 @@ main{
     align-content:flex-start;
     justify-content: center;
     height:auto;
+    background: #f18973;
 }
 
 #Work a{
@@ -204,7 +233,7 @@ h5{
     justify-content: flex-end;
     display: flex;
     align-items: flex-end;
-    border:solid grey 10px;
+    border: solid #bc5a45 15px;
 }
 
 #Project1:hover, #Project2:hover, #Project3:hover, #Project4:hover, #Project5:hover{
@@ -219,7 +248,7 @@ h5{
     display: flex;
     align-items: flex-end;
     margin: 3% 3% 3% 3%;
-    border:solid grey 10px;
+    border: solid #bc5a45 15px;
 }
 
 #Project3{
@@ -240,6 +269,7 @@ h5{
     display: flex;
     justify-content:space-around;
     align-items: center;
+
 }
 
 #Work h4
@@ -257,22 +287,9 @@ h5{
 }
 
 #Aboutme img{
-    border: solid teal 5px;
-    margin:50px;
+    border: solid #bc5a45 15px;
+    margin:40px;
 
-}
-
-#Aboutme h4{
-    padding-left:30px;
-}
-
-#Contactme h4{
-    color:black;
-    text-decoration:underline overline;
-    text-decoration-style:solid;
-    font-family:monospace;
-    font-size:20px;
-    font-weight:unset;
 }
 
 @media screen and (max-width: 870px) {
@@ -321,12 +338,18 @@ h5{
     }
 
     .Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
-        border-bottom:rgb(12, 173, 173) solid 5px; 
+        border-bottom:#bc5a45 solid 5px; 
         border-right:none;
         width:auto;
         height:auto;
+        
     }
 
+    .Contactmelabel h3{
+        border-bottom:#f18973 solid 5px; 
+        border-right:none;
+        
+    }
 
    #Contactme{
        flex-direction: column;
