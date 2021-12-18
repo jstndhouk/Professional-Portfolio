@@ -54,7 +54,7 @@ nav {
 
 }
 
-.navlinks:hover {
+.navlinks:hover, #bigProjectLinks:hover, .smallProjectLink:hover {
     background-color: white;
     color: black;
 }
@@ -234,204 +234,210 @@ main {
     background: #bc5a45;
 }
 
-#Project1:hover,
-#Project2:hover,
-#Project3:hover,
-#Project4:hover,
-#Project5:hover 
-        {
-        border: solid teal 5px;
-        border-radius: 7px;
-    }
+.Project:hover
+{
+    border: solid teal 5px;
+    border-radius: 7px;
+}
 
-    #Project2,
-    #Project3,
-    #Project4,
-    #Project5 {
-        width: 42%;
-        height: 200px;
-        background-image: url("https://i0.wp.com/calmatters.org/wp-content/uploads/2021/08/math-curriculum.jpg?fit=1200%2C900&ssl=1");
-        justify-content: flex-end;
-        display: flex;
-        align-items: flex-end;
-        margin: 3% 3% 3% 3%;
-        border: solid #bc5a45 15px;
-    }
+.Project
+ {
+    width: 42%;
+    height: 200px;
+    display: flex;
+    margin: 3% 3% 3% 3%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 7px;
+    flex-direction: column;
+    background: #bc5a45;
+    font-size: 20px;
+}
 
-    #Project3 {
-        background-image: url("https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png");
-    }
+#contactme {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-    #Project4 {
-        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/096/888/small/vector-abstract-pattern-background.jpg");
-    }
+}
 
-    #Project5 {
-        background-image: url("https://thumbs.dreamstime.com/z/abstract-background-beautiful-fantasy-ink-patterns-liquid-paint-fluid-art-ornament-marble-design-your-colorful-136138753.jpg");
-    }
+#bigProjectLinks {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #f18973;
+    color: black;
+    border-radius: 25px;
+}
 
-    #contactme {
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+.smallProjectLink{
+    color: white;
+    text-decoration-style: none;
+    font-size: 12px;
+    padding: 2px;
+    margin:2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #f18973;
+    color: black;
+    border-radius: 25px;
+    text-decoration: none;
+}
 
-    }
+#mainProjectTitle {
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
+    font-family: 'Roboto Mono', monospace;
+    height: inherit;
+    width: inherit;
+    color: black;
+    margin: 0px;
+    padding: 0px 12px 0px 12px
+}
 
-    #Work a {
-        color: white;
-        text-decoration-style: solid;
-        font-size: 20px;
-        padding:  5px 10px 5px 10px;
-        margin: 5px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        background: #f18973;
-        color: black;
-        border-radius: 25px;
-    }
+.projectTitles{
+    font-size: 20px;
+    text-shadow: 2px 2px grey;
+    font-family: 'Roboto Mono', monospace;
+    height: inherit;
+    width: inherit;
+    color: black;
+    margin: 0px;
+    padding: 0px 6px 0px 6px;
+}
 
-    .projectTitles {
-        font-size: 40px;
-        text-shadow: 2px 2px grey;
-        font-family: 'Roboto Mono', monospace;
-        height: inherit;
-        width: inherit;
-        color: black;
-        margin: 0px;
-        padding: 0px 12px 0px 12px
-    }
+.projectTitleContainer {
+    background: #f18973;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 
-    .projectTitleContainer {
-        background: #f18973;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+}
+
+.appSnippet {
+    padding: 20px 0 20px 0;
+}
+
+.smallAppSnippet{
+    padding: 10px 0 10px 0;
+}
+
+#Aboutme img {
+    border: solid #bc5a45 15px;
+    margin: 20px;
+
+}
+
+@media screen and (max-width: 870px) {
+    header {
         flex-direction: column;
+    }
+
+
+    .Name {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    h1 span {
+        font-size: 30px !important;
+    }
+
+    .aboutmesection,
+    .worksection,
+    .contactmesection {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: space-around;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .Aboutmelabel,
+    .Worklabel,
+    .Contactmelabel {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #work h4 {
+        font-size: 20px;
+    }
+
+    .Aboutmelabel h3,
+    .Worklabel h3,
+    .Contactmelabel h3 {
+        border-bottom: #bc5a45 solid 5px;
+        border-right: none;
+        width: auto;
+        height: auto;
 
     }
 
-    .appSnippet {
-        padding: 20px 0 20px 0;
-    }
-
-    #Aboutme img {
-        border: solid #bc5a45 15px;
-        margin: 20px;
+    .Contactmelabel h3 {
+        border-bottom: #f18973 solid 5px;
+        border-right: none;
 
     }
 
-    @media screen and (max-width: 870px) {
-        header {
-            flex-direction: column;
-        }
-
-
-        .Name {
-            display: flex;
-            justify-content: center;
-            padding: 0px;
-        }
-
-        h1 span {
-            font-size: 30px !important;
-        }
-
-        .aboutmesection,
-        .worksection,
-        .contactmesection {
-            flex-direction: column;
-        }
-
-        nav {
-            justify-content: space-around;
-            padding: 0;
-            flex-direction: column;
-        }
-
-        nav a {
-            margin: 5px;
-        }
-
-        main {
-            flex-direction: column;
-        }
-
-        .Aboutmelabel,
-        .Worklabel,
-        .Contactmelabel {
-            width: auto;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #work h4 {
-            font-size: 20px;
-        }
-
-        #Project1,
-        #Project2,
-        #Project3,
-        #Project4,
-        #Project5 {
-            height: 200px;
-        }
-
-        .Aboutmelabel h3,
-        .Worklabel h3,
-        .Contactmelabel h3 {
-            border-bottom: #bc5a45 solid 5px;
-            border-right: none;
-            width: auto;
-            height: auto;
-
-        }
-
-        .Contactmelabel h3 {
-            border-bottom: #f18973 solid 5px;
-            border-right: none;
-
-        }
-
-        #Contactme {
-            flex-direction: column;
-            padding-top: 10px;
-            height: auto;
-        }
-
-        #Contactme h4,
-        #Contactme a {
-            margin: 2px;
-        }
-
-        #Aboutme {
-            flex-direction: column;
-        }
-
-        #work {
-            flex-wrap: wrap;
-            height: auto;
-        }
-
-        .worksection,
-        .Contactmesection,
-        .aboutmesection {
-            flex-direction: column;
-        }
+    #Contactme {
+        flex-direction: column;
+        padding-top: 10px;
+        height: auto;
     }
 
-    @media screen and (max-width: 1100px) {
-
-        .Aboutmelabel,
-        .Worklabel,
-        .Contactmelabel {
-            font-size: 30px;
-        }
-
-        #Aboutme,
-        #work {
-            height: 100%;
-            font-size: 20px;
-        }
+    #Contactme h4,
+    #Contactme a {
+        margin: 2px;
     }
+
+    #Aboutme {
+        flex-direction: column;
+    }
+
+    #work {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .worksection,
+    .Contactmesection,
+    .aboutmesection {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .Aboutmelabel,
+    .Worklabel,
+    .Contactmelabel {
+        font-size: 30px;
+    }
+
+    #Aboutme,
+    #work {
+        height: 100%;
+        font-size: 20px;
+    }
+}
