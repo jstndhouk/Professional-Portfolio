@@ -1,383 +1,437 @@
-*{
+* {
     scroll-behavior: smooth;
-    padding:0;
+    padding: 0;
 }
 
-header{
-    display:flex;
+header {
+    display: flex;
     background-color: rgb(204, 203, 203);
-    color:black;
-    width:100%;
+    color: black;
+    width: 100%;
     flex: 4 1 1 1 1;
-    background:#bc5a45;
+    background: #bc5a45;
 }
 
-.Name{
-   background: #f18973;
-   border-radius: 25px;
-   margin-left: 10px;;
+.Name {
+    background: #f18973;
+    border-radius: 25px;
+    margin-left: 10px;
+    ;
 }
 
-.Name span{
-    width:100%;
-    
-    padding:5px 20px;
-    font-size:50px;
+.Name span {
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 50px;
     text-shadow: 2px 2px grey;
     font-family: 'Roboto Mono', monospace;
 }
 
-.topNav{
+.topNav {
     justify-content: flex-end;
     padding-right: 10px;
 }
 
-nav{
+nav {
     align-items: center;
-    display:flex;
-    flex:1 1 50px;
+    display: flex;
+    flex: 1 1 50px;
     justify-content: space-between;
-    padding-right:50px;
+    padding-right: 50px;
 }
 
 .navlinks {
-   color:white;
-   text-decoration-style:solid;
-   font-size:20px;
-   padding: 15px;
-   margin:10px;
-   font-family: 'Open Sans Condensed', sans-serif;
-   background: #f18973;
-   color:black;
-   border-radius: 25px;
+    color: white;
+    text-decoration-style: solid;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #f18973;
+    color: black;
+    border-radius: 25px;
 
 
 }
 
-.navlinks:hover{
+.navlinks:hover {
     background-color: white;
-    color:black;
+    color: black;
 }
 
-i{
-    font-size:50px;
-    color:#bc5a45!important;
+i {
+    font-size: 50px;
+    color: #bc5a45 !important;
 }
 
-.subheading{
+.subheading {
     width: 100%;
-    height:35%;
-    display:flex;
-    background:#f4e1d2;
+    height: 35%;
+    display: flex;
+    background: #f4e1d2;
     display: flex;
     flex-direction: column-reverse;
 }
 
-#subheadingBlurb{
-    font-size:20px;
+#subheadingBlurb {
+    font-size: 20px;
     color: black;
     -webkit-text-stroke: 0.1px black;
     font-family: 'Inter', sans-serif;
     height: 70%;
-    display:flex;
+    display: flex;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top:30px;
-    border-bottom:double;
+    padding-top: 30px;
+    border-bottom: double;
     border-color: #b2b2b2;
     text-align: center;
     flex-direction: column;
 }
-#techUsed{
-    width:90%;
+
+#techUsed {
+    width: 90%;
     align-items: center;
-    height:50%;
-    display:flex;
+    height: 50%;
+    display: flex;
     justify-content: space-around;
     padding-right: 10px;
     padding-left: 10px;
     align-self: center;
 }
 
-#aboutmeblurb1, #aboutmeblurb2, #aboutmeblurb3, #aboutmeblurb4 {
+#aboutmeblurb1,
+#aboutmeblurb2,
+#aboutmeblurb3,
+#aboutmeblurb4 {
     font-family: 'Inter', sans-serif;
     font-size: 17px;
-    margin:10px;
+    margin: 10px;
 }
 
-#aboutmeblurb{
-    display:flex;
+#aboutmeblurb {
+    display: flex;
     flex-direction: column;
-    padding-top:10px;
-    padding-right:10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
-main{
-    display:flex;
+main {
+    display: flex;
     flex-direction: column;
-    height:auto;
+    height: auto;
 }
 
-#contactme{
-    width:100%;
-    height:100px;
-    background:#bc5a45;
+#contactme {
+    width: 100%;
+    height: 100px;
+    background: #bc5a45;
 }
 
-.articles{
-    flex:3 1;
-    height:100%;
-    color:teal; 
+.articles {
+    flex: 3 1;
+    height: 100%;
+    color: teal;
     display: flex;
 }
 
-.aboutmesection, .worksection, .contactmesection{
+.aboutmesection,
+.worksection,
+.contactmesection {
     width: 100%;
     display: flex;
 }
 
-.worksection{
-    height:auto;
+.worksection {
+    height: auto;
 }
 
-.contactmesection{
-    height:100px;
+.contactmesection {
+    height: 100px;
 }
 
 
-#hello{
-font-size: 30px;
-font-weight: bolder;
+#hello {
+    font-size: 30px;
+    font-weight: bolder;
 }
-.Aboutmelabel, .Worklabel, .Contactmelabel{
-    width:40%;
+
+.Aboutmelabel,
+.Worklabel,
+.Contactmelabel {
+    width: 40%;
     /* padding-bottom:2px;  Do you know the trait to round the border edges? */
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     background: #f18973;
-    padding:15px;
-    margin:0px;
-    font-size:50px;
+    padding: 15px;
+    margin: 0px;
+    font-size: 50px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
-    border-right:#bc5a45 solid 5px; 
+.Aboutmelabel h3,
+.Worklabel h3,
+.Contactmelabel h3 {
+    border-right: #bc5a45 solid 5px;
     padding: 5px;
-    margin:5px;
-    padding-right:10px;
-    height:100%;
+    margin: 5px;
+    padding-right: 10px;
+    height: 100%;
 }
 
-.Contactmelabel h3{
-    border-right:#f18973 solid 5px; 
+.Contactmelabel h3 {
+    border-right: #f18973 solid 5px;
     padding: 5px;
-    margin:5px;
-    padding-right:10px;
-    height:100%;
-}
-}
-
-.Worklabel{
-    height:auto;
+    margin: 5px;
+    padding-right: 10px;
+    height: 100%;
 }
 
-.Contactmelabel{
+
+.Worklabel {
+    height: auto;
+}
+
+.Contactmelabel {
     justify-content: flex-end;
-    align-items: center; 
-    background:#bc5a45;
-
-}
-
-#Aboutme{
-    display:flex;
-    justify-content: center;
     align-items: center;
-    width:100%;
-    background-color: #f18973;
-    height:auto;
+    background: #bc5a45;
+
 }
 
-#Work{
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
-    align-content:flex-start;
-    justify-content: center;
-    height:auto;
-    background: #f18973;
-}
-
-#Work a{
-    text-decoration: none;
-    display:flex;
+#Aboutme {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height:100%;
-    flex-direction:column;
+    background-color: #f18973;
+    height: auto;
 }
 
-h5{
-    text-decoration:none;
-    color:white;
-    background-color:teal;
-    margin:5px;
+#Work {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    height: auto;
+    background: #f18973;
 }
 
-#Project1{
-    width:100%;
+
+
+#Project1 {
+    width: 100%;
     height: 400px;
-    background-image: url("https://i.pinimg.com/originals/1a/91/70/1a9170ff0c25711af89f9750f8f72726.jpg");
     margin: 50px 50px 35px 50px;
-    justify-content: flex-end;
+    justify-content: center;
     display: flex;
-    align-items: flex-end;
-    border: solid #bc5a45 15px;
-}
-
-#Project1:hover, #Project2:hover, #Project3:hover, #Project4:hover, #Project5:hover{
-    border-color:teal;
-}
-
-#Project2, #Project3, #Project4, #Project5{
-    width:42%;
-    height: 200px;
-    background-image: url("https://i0.wp.com/calmatters.org/wp-content/uploads/2021/08/math-curriculum.jpg?fit=1200%2C900&ssl=1");
-    justify-content: flex-end;
-    display: flex;
-    align-items: flex-end;
-    margin: 3% 3% 3% 3%;
-    border: solid #bc5a45 15px;
-}
-
-#Project3{
-    background-image: url("https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png");
-}
-
-#Project4{
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/096/888/small/vector-abstract-pattern-background.jpg");
-}
-
-#Project5{
-    background-image: url("https://thumbs.dreamstime.com/z/abstract-background-beautiful-fantasy-ink-patterns-liquid-paint-fluid-art-ornament-marble-design-your-colorful-136138753.jpg");
-}
-
-#contactme{
-    height:auto;
-    width:100%;
-    display: flex;
-    justify-content:space-around;
     align-items: center;
-
+    border: solid black 5px;
+    border-radius: 7px;
+    flex-direction: column;
+    background: #bc5a45;
 }
 
-#Work h4
-{
-    padding:13px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:45px;
-    background-color:teal;
-    color:white;
-    width:auto;
-    height:auto;
-    align-items: center;
-    margin:10px;
-    text-shadow: 2px 2px black;
-}
-
-#Aboutme img{
-    border: solid #bc5a45 15px;
-    margin:40px;
-
-}
-
-@media screen and (max-width: 870px) {
-    header{
-        flex-direction: column;
+#Project1:hover,
+#Project2:hover,
+#Project3:hover,
+#Project4:hover,
+#Project5:hover 
+        {
+        border: solid teal 5px;
+        border-radius: 7px;
     }
 
-
-    .Name{
-        display:flex;
-        justify-content: center;
-        padding:0px;
-    }
-
-    h1 span{
-        font-size:30px!important;
-    }
-
-    .aboutmesection, .worksection, .contactmesection{
-        flex-direction:column;
-    }
-    nav{
-        justify-content:space-around;
-        padding:0;
-        flex-direction: column;
-    }
-
-    nav a{
-        margin:5px;
-    }
-
-    main{
-        flex-direction:column;
-    }
-    .Aboutmelabel, .Worklabel, .Contactmelabel{
-        width:auto;
-        align-items: center;
-        justify-content: center;
-    }
-    #work h4{
-    font-size:20px;
-    }
-
-    #Project1, #Project2, #Project3, #Project4, #Project5{
+    #Project2,
+    #Project3,
+    #Project4,
+    #Project5 {
+        width: 42%;
         height: 200px;
+        background-image: url("https://i0.wp.com/calmatters.org/wp-content/uploads/2021/08/math-curriculum.jpg?fit=1200%2C900&ssl=1");
+        justify-content: flex-end;
+        display: flex;
+        align-items: flex-end;
+        margin: 3% 3% 3% 3%;
+        border: solid #bc5a45 15px;
     }
 
-    .Aboutmelabel h3, .Worklabel h3, .Contactmelabel h3{
-        border-bottom:#bc5a45 solid 5px; 
-        border-right:none;
-        width:auto;
-        height:auto;
-        
+    #Project3 {
+        background-image: url("https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png");
     }
 
-    .Contactmelabel h3{
-        border-bottom:#f18973 solid 5px; 
-        border-right:none;
-        
+    #Project4 {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/096/888/small/vector-abstract-pattern-background.jpg");
     }
 
-   #Contactme{
-       flex-direction: column;
-       padding-top:10px;
-       height:auto;
-   }
+    #Project5 {
+        background-image: url("https://thumbs.dreamstime.com/z/abstract-background-beautiful-fantasy-ink-patterns-liquid-paint-fluid-art-ornament-marble-design-your-colorful-136138753.jpg");
+    }
 
-   #Contactme h4, #Contactme a{
-       margin:2px;
-   }
-   
-    #Aboutme{
+    #contactme {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #Work a {
+        color: white;
+        text-decoration-style: solid;
+        font-size: 20px;
+        padding:  5px 10px 5px 10px;
+        margin: 5px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        background: #f18973;
+        color: black;
+        border-radius: 25px;
+    }
+
+    .projectTitles {
+        font-size: 40px;
+        text-shadow: 2px 2px grey;
+        font-family: 'Roboto Mono', monospace;
+        height: inherit;
+        width: inherit;
+        color: black;
+        margin: 0px;
+        padding: 0px 12px 0px 12px
+    }
+
+    .projectTitleContainer {
+        background: #f18973;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
         flex-direction: column;
+
     }
-    #work{
-        flex-wrap:wrap;
-        height:auto;
+
+    .appSnippet {
+        padding: 20px 0 20px 0;
     }
-    .worksection, .Contactmesection, .aboutmesection{
-        flex-direction: column;
-    } 
-  }
-    @media screen and (max-width: 1100px) {
-        .Aboutmelabel, .Worklabel, .Contactmelabel{
-            font-size:30px;
+
+    #Aboutme img {
+        border: solid #bc5a45 15px;
+        margin: 20px;
+
+    }
+
+    @media screen and (max-width: 870px) {
+        header {
+            flex-direction: column;
         }
-        #Aboutme, #work{
-            height:100%;
-            font-size:20px;
-         }  
+
+
+        .Name {
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+        }
+
+        h1 span {
+            font-size: 30px !important;
+        }
+
+        .aboutmesection,
+        .worksection,
+        .contactmesection {
+            flex-direction: column;
+        }
+
+        nav {
+            justify-content: space-around;
+            padding: 0;
+            flex-direction: column;
+        }
+
+        nav a {
+            margin: 5px;
+        }
+
+        main {
+            flex-direction: column;
+        }
+
+        .Aboutmelabel,
+        .Worklabel,
+        .Contactmelabel {
+            width: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #work h4 {
+            font-size: 20px;
+        }
+
+        #Project1,
+        #Project2,
+        #Project3,
+        #Project4,
+        #Project5 {
+            height: 200px;
+        }
+
+        .Aboutmelabel h3,
+        .Worklabel h3,
+        .Contactmelabel h3 {
+            border-bottom: #bc5a45 solid 5px;
+            border-right: none;
+            width: auto;
+            height: auto;
+
+        }
+
+        .Contactmelabel h3 {
+            border-bottom: #f18973 solid 5px;
+            border-right: none;
+
+        }
+
+        #Contactme {
+            flex-direction: column;
+            padding-top: 10px;
+            height: auto;
+        }
+
+        #Contactme h4,
+        #Contactme a {
+            margin: 2px;
+        }
+
+        #Aboutme {
+            flex-direction: column;
+        }
+
+        #work {
+            flex-wrap: wrap;
+            height: auto;
+        }
+
+        .worksection,
+        .Contactmesection,
+        .aboutmesection {
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+
+        .Aboutmelabel,
+        .Worklabel,
+        .Contactmelabel {
+            font-size: 30px;
+        }
+
+        #Aboutme,
+        #work {
+            height: 100%;
+            font-size: 20px;
+        }
     }
