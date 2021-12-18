@@ -13,6 +13,6 @@ Icons: https://devicon.dev/
 https://jstndhouk.github.io/Professional-Portfolio/
 
 <!-- ## Snippet
-![Image output](./assets/Capture1.png)
-![Image output](./assets/Capture2.png)
-![Image output](./assets/Capture3.png) -->
+![Image output](./assets/Capture1.PNG)
+![Image output](./assets/Capture2.PNG)
+![Image output](./assets/Capture3.PNG) -->

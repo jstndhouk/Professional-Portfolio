@@ -54,7 +54,9 @@ nav {
 
 }
 
-.navlinks:hover, #bigProjectLinks:hover, .smallProjectLink:hover {
+.navlinks:hover,
+#bigProjectLinks:hover,
+.smallProjectLink:hover {
     background-color: white;
     color: black;
 }
@@ -66,7 +68,6 @@ i {
 
 .subheading {
     width: 100%;
-    height: 35%;
     display: flex;
     background: #f4e1d2;
     display: flex;
@@ -80,9 +81,7 @@ i {
     font-family: 'Inter', sans-serif;
     height: 70%;
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 30px;
+    padding: 30px 10% 10px 10%;
     border-bottom: double;
     border-color: #b2b2b2;
     text-align: center;
@@ -95,9 +94,10 @@ i {
     height: 50%;
     display: flex;
     justify-content: space-around;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
     align-self: center;
+    flex-wrap: wrap;
+
 }
 
 #aboutmeblurb1,
@@ -234,14 +234,12 @@ main {
     background: #bc5a45;
 }
 
-.Project:hover
-{
+.Project:hover {
     border: solid teal 5px;
     border-radius: 7px;
 }
 
-.Project
- {
+.Project {
     width: 42%;
     height: 200px;
     display: flex;
@@ -275,19 +273,22 @@ main {
     background: #f18973;
     color: black;
     border-radius: 25px;
+    text-align: center;
 }
 
-.smallProjectLink{
+.smallProjectLink {
     color: white;
     text-decoration-style: none;
     font-size: 12px;
     padding: 2px;
-    margin:2px;
+    margin: 2px;
     font-family: 'Open Sans Condensed', sans-serif;
     background: #f18973;
     color: black;
     border-radius: 25px;
     text-decoration: none;
+    text-align: center;
+
 }
 
 #mainProjectTitle {
@@ -301,15 +302,16 @@ main {
     padding: 0px 12px 0px 12px
 }
 
-.projectTitles{
+.projectTitles {
     font-size: 20px;
     text-shadow: 2px 2px grey;
     font-family: 'Roboto Mono', monospace;
     height: inherit;
-    width: inherit;
+    width: auto;
     color: black;
     margin: 0px;
     padding: 0px 6px 0px 6px;
+    text-align: center;
 }
 
 .projectTitleContainer {
@@ -319,14 +321,14 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-
+    width: max-content;
 }
 
 .appSnippet {
     padding: 20px 0 20px 0;
 }
 
-.smallAppSnippet{
+.smallAppSnippet {
     padding: 10px 0 10px 0;
 }
 
@@ -336,7 +338,7 @@ main {
 
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     header {
         flex-direction: column;
     }
@@ -346,10 +348,17 @@ main {
         display: flex;
         justify-content: center;
         padding: 0px;
+        align-self: center;
     }
 
-    h1 span {
-        font-size: 30px !important;
+    .smallAppSnippet {
+        width: 125px;
+        height: 50px;
+    }
+
+    .appSnippet {
+        width: 250px;
+        height: 100px;
     }
 
     .aboutmesection,
@@ -372,16 +381,13 @@ main {
         flex-direction: column;
     }
 
+
     .Aboutmelabel,
     .Worklabel,
     .Contactmelabel {
         width: auto;
         align-items: center;
         justify-content: center;
-    }
-
-    #work h4 {
-        font-size: 20px;
     }
 
     .Aboutmelabel h3,
@@ -439,5 +445,11 @@ main {
     #work {
         height: 100%;
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .projectTitles{
+        font-size:12px
     }
 }
