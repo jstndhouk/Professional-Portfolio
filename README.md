@@ -1,12 +1,12 @@
 # My Professional Portfolio:  Justin Houk
 ## Overview
 
-This purpose of this application is to tell accompany my resume by telling employers a little bit about me and my work.  It also gives them my contact information and social media so that they can reach out to me if they're interested in my work.  This application was made using flex boxes in the row direction, then to the column direction when the browser approaches mobile dimensions.  It includes links to my social media pages, a photo of myself and links at the top to quickly point the user to the sections they would like to view.  My resume is also linked to a dropbox link at the top of the page.
+This is my professional homepage that puts on display what I have created to show my software development skills and experience.  Here you can find links to my social media pages, ways to contact me, and a copy of my most up-to-date resume.  In my projects section, you can find links to my github repository for each project, as well as the deployed applications, if applicable.  If there is not a deployed application, check out the github repository.  Many of my applications are back-end only or are terminally executed applications that cannot be deployed.  Please feel free to reach out to me at my email: jstndhouk@gmail.com with any opportunities or feedback on any of the content found within.  Thanks for visiting!
 
 ## Development Tools Used
 Google fonts
-
-Icons: https://devicon.dev/
+Bootstrap
+Icons used: https://devicon.dev/
 
 ## Deployed Webpage
 
