@@ -5,6 +5,7 @@ This is my professional homepage that puts on display what I have created to sho
 
 ## Development Tools Used
 Google fonts
+
 Bootstrap
 Icons used: https://devicon.dev/
 
