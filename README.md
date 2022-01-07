@@ -11,7 +11,8 @@ CSS
 Google fonts
 
 Bootstrap
-Icons used: https://devicon.dev/
+
+Technology Icons used: https://devicon.dev/
 
 ## Deployed Webpage
 
