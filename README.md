@@ -12,7 +12,7 @@ Google fonts
 
 Bootstrap
 
-Technology Icons used: https://devicon.dev/
+Technology Icons used: https://devicon.dev/ --IndexDB, Mongoose, React, MongoDB, webpack, Lighthouse
 
 ## Deployed Webpage
 
