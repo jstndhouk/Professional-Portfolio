@@ -14,6 +14,8 @@ Bootstrap
 
 Technology Icons used: https://devicon.dev/ --IndexDB, Mongoose, React, MongoDB, webpack, Lighthouse
 
+More Icons:https://feathericons.com/?ref=hiddentools
+
 ## Deployed Webpage
 
 https://jstndhouk.github.io/Professional-Portfolio/
