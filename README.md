@@ -16,7 +16,12 @@ Technology Icons used: https://devicon.dev/ --IndexDB, Mongoose, React, MongoDB,
 
 More Icons: https://feathericons.com/?ref=hiddentools, https://akaricons.com/?ref=hiddentools
 
+## Future Development
+-  Implement responsive pop up boxes that give a brief description of the applications, and the technologies used.
+-  Option:  Convert to a react portfolio
+
 ## Deployed Webpage
+
 
 https://jstndhouk.github.io/Professional-Portfolio/
 
